@@ -40,7 +40,7 @@
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
-  "proxy": "https://comeoncalender.netlify.app",
+  "proxy": "https://api.come-on.ml",
   "browserslist": {
     "production": [
       ">0.2%",
