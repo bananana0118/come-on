@@ -33,10 +33,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "CI= react-app-rewired start",
+    "start": "react-app-rewired start",
     "emulators:start": "set 'REACT_APP_CLIENT_URL=http://localhost:5000' && firebase emulators:start",
     "firebase:deploy": "firebase deploy --only hosting",
-    "build": "react-app-rewired build",
+    "build": "CI= react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
