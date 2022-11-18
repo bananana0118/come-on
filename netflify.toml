@@ -1,6 +1,6 @@
 [build]
   command = "CI= react-app-rewired build"
-  publish="/"
+  publish="/public"
   base = "."
   
 [[redirects]]
